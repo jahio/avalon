@@ -1,0 +1,17 @@
+{
+  "name": "Avalon",
+  "version": "1.0.0",
+  "description": "Cross-Platform RSS Reader",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "RSS"
+  ],
+  "author": "J. Austin Hughey",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^6.0.4"
+  }
+}

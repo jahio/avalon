@@ -53,7 +53,12 @@ function createNewFeedWindow() {
         slashes:  true
       }
     )
-  )
+  );
+
+  // Garbage collection
+  newFeedWindow.on('close', function() {
+    newFeedWindow = null;
+  });
 }
 
 //
